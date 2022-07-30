@@ -1,0 +1,169 @@
+.BusinessCard--Card {
+    box-sizing: border-box;
+    min-height: 90vh;
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #1A1B21;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.BusinessCard--Card--Section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 100%;
+    background-color: #1A1B21;
+}
+
+.ProfilePic {
+    margin: 0;
+    padding: 0;
+    height: 60%;
+    width: 100%;
+    background-image: url('./profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.BusinessCard--Card--Section1 > h6 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.BusinessCard--Card--Section1 > h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.55em;
+    font-weight: 400;
+    color: #F3BF99;
+}
+
+.BusinessCard--Card--Section1--ButtonPanel{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.BusinessCard--Card--Section1--Button1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-evenly;
+    font-size: 0.65em;
+    background-color: #EAF6F6;
+    color: black;
+    border: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+.BusinessCard--Card--Section1--Button1:hover{
+    background-color: #B25068;
+    color: white;
+    box-shadow: 0 3px 10px rgba(255, 253, 253, 0.185);
+}
+
+.BusinessCard--Card--Section1--Button2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.65em;
+    margin: 5px;
+    width: 30%;
+    background-color: #0078AA;
+    color: aliceblue;
+    border: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+.BusinessCard--Card--Section1--Button2:hover{
+    background-color: #61DBFB;
+    color: #1A1B21;
+    box-shadow: 0 3px 10px rgba(255, 253, 253, 0.185);
+}
+
+.BusinessCard--Card--Section2 {
+    box-sizing: border-box;
+    height: 15%;
+    width: 100%;
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    font-size: small;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.BusinessCard--Card--Section2 > h6 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.BusinessCard--Card--Section3 {
+    box-sizing: border-box;
+    height: 15%;
+    width: 100%;
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    font-size: small;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.BusinessCard--Card--Section3 > h6 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+
+.BusinessCard--Card--Section4 {
+    height: 10%;
+    width: 100%;
+    background-color: #161619;
+    color: #918E9B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#BusinessCard--Card--Section4--Twit:hover{color: #00D7FF;}
+#BusinessCard--Card--Section4--Face:hover{color: #0096FF;}
+#BusinessCard--Card--Section4--Insta:hover{color: #EAF6F6;}
+#BusinessCard--Card--Section4--Git:hover{color: #FF869E;}
+#BusinessCard--Card--Section4--Msg:hover{color: #0096FF;}
